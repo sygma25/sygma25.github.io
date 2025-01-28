@@ -1,16 +1,24 @@
 function toggleMenu() {
   const menu = document.getElementById('menu');
-  const menuIcon = document.querySelector('.menu-bar-icon');
+  const menuBar = document.getElementById('menuBar');
+
+
   menu.classList.toggle('active');
-  menuIcon.classList.toggle('change');
+
+ 
+  if (menu.classList.contains('active')) {
+    menuBar.textContent = '✖'; 
+  } else {
+    menuBar.textContent = '☰'; 
+  }
 }
 
 
 document.addEventListener('click', (event) => {
   const menu = document.getElementById('menu');
-  const menuIcon = document.querySelector('.menu-bar-icon');
-  if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+  const menuBar = document.getElementById('menuBar');
+  if (!menu.contains(event.target) && !menuBar.contains(event.target)) {
     menu.classList.remove('active');
-    menuIcon.classList.remove('change');
+    menuBar.textContent = '☰'; 
   }
 });
