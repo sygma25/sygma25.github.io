@@ -102,6 +102,7 @@ footer {
   padding: 0;
   color: #fff;
   background: #121315;
+  margin-top: auto;
 }
 
 footer ul {
@@ -288,6 +289,9 @@ ul {
 
 .footer-logo img {
   max-width: 200px;
+}
+.footer-logo {
+  margin-bottom: 30px;
 }
 
 .footer-text p {

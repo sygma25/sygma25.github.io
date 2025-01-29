@@ -1,5 +1,2 @@
 Sygma-2025
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.4408782375626!2d74.83878437507485!3d12.879347887427564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a44fb7c5407%3A0xe807789db0e8face!2sShri%20Dharmasthala%20Manjunatheshwara%20College%20Of%20Business%20Management!5e0!3m2!1sen!2sin!4v1738142602135!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-.footer-logo {
-  margin-bottom: 30px;
-}
